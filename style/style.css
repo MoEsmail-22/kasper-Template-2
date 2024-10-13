@@ -577,7 +577,6 @@ header .icon span {
 .Portfolio .content ul li {
   list-style: none;
   padding: 5px 20px;
-  font-size: 20px;
   text-transform: capitalize;
 }
 
@@ -589,6 +588,12 @@ header .icon span {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .Portfolio .content ul li {
+    padding: 5px 15px;
+  }
 }
 
 .Portfolio .photos {
