@@ -403,6 +403,9 @@ header .icon span {
   .landing .overlay .switch span {
     padding: 10px;
   }
+  .landing .overlay .switch {
+    margin-top:-10px;
+  }
 }
 
 /*End landing*/
